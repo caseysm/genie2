@@ -2,7 +2,7 @@ import os
 import wandb
 import argparse
 from pytorch_lightning.callbacks import ModelCheckpoint
-from pytorch_lightning.trainer import Trainer, seed_everything
+from pytorch_lightning import Trainer, seed_everything
 from pytorch_lightning.loggers import WandbLogger, TensorBoardLogger
 
 from genie.config import Config

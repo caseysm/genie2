@@ -1,7 +1,7 @@
 import torch
 from torch.optim import Adam
 from abc import ABC, abstractmethod
-from pytorch_lightning.core import LightningModule
+from pytorch_lightning import LightningModule
 
 from genie.model.model import Denoiser
 from genie.diffusion.schedule import get_betas
